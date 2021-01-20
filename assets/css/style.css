@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*===================== Global Styles ==================*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.svg-1 {
+  width: 35px;
+}
+
+#big-img {
+  width: 100%;
+}
+/*===================== Header Styling ====================*/
+
+#logo {
+  width: 36px;
+  padding-left: 5%;
+  padding-right: 0.6%;
+  position: fixed;
+  top: 3%;
+}
+
+header {
+  background-image: url("../images/ilustracion1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.top-left-container {
+  display: inline-block;
+  padding-left: 8%;
+}
+.top-left-container h2 {
+  margin-bottom: 0;
+}
+
+.top-left-container p {
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+.top-middle-container {
+  padding-top: 100px;
+  padding-left: 10%;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header div:nth-of-type(2) p:first-of-type {
+  display: inline-block;
+  width: 30%;
+  padding-bottom: 50px;
+}
+
+#rocket {
+  width: 30px;
+}
+
+header div:nth-of-type(2) p:nth-of-type(2) {
+  color: #ff3571;
+}
+
+/*============================ Sections Style =====================*/
+
+/*============== Section - 1 > Article-1 ===================*/
+
+#big-img {
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+/*============== Section - 2 > Article-1 ===================*/
+
+section:nth-of-type(2) article:nth-of-type(1) {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 70px;
+}
+
+section:nth-of-type(2) article:nth-of-type(1) p {
+  width: 32%;
+  padding-top: 50px;
+  line-height: 30px;
+}
+
+section:nth-of-type(2) article h2 {
+  font-size: 3.1rem;
+  width: 20%;
+}
+
+#bulb {
+  width: 60px;
+}
+
+section:nth-of-type(2) article:nth-of-type(1) + h2 {
+  font-size: 3rem;
+  width: 40%;
+  padding-left: 15%;
+  padding-bottom: 120px;
+}
+
+.svg-1 {
+  padding-left: 5%;
+}
+
+/*============== Section - 2 > Article-2 ===================*/
+
+section:nth-of-type(2) article:nth-of-type(2) {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section:nth-of-type(2) article:nth-of-type(2) div {
+  width: 35%;
+}
+
+section:nth-of-type(2) article:nth-of-type(2) p {
+  line-height: 30px;
+}
+
+section:nth-of-type(2) article:nth-of-type(2) div h3 {
+  padding-left: 5%;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.pp {
+  padding-left: 17%;
+}
+
+section:nth-of-type(3) {
+  padding-bottom: 200px;
+}
+
+/*============== Section - 2 > Article-3 ===================*/
+
+section:nth-of-type(2) article:nth-of-type(3) {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section:nth-of-type(2) article:nth-of-type(3) div {
+  width: 35%;
+}
+
+section:nth-of-type(2) article:nth-of-type(3) p {
+  line-height: 30px;
+}
+
+section:nth-of-type(2) article:nth-of-type(3) div h3 {
+  padding-left: 5%;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+/*============== Section - 3 > Article-1 ===================*/
+section:nth-of-type(3) {
+  padding-top: 100px;
+}
+.step-head {
+  display: flex;
+  justify-content: center;
+}
+
+.step-head h2 {
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+
+.steps-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  line-height: 0px;
+}
+
+/*============== Section - 3 > Article-2 ===================*/
+
+.step-1,
+.step-3 {
+  padding-right: 10%;
+  line-height: 30px;
+}
+
+.step-1 h2,
+.step-3 h2 {
+  font-size: 2.8rem;
+  color: #dddddd;
+}
+
+.step-one,
+.step-three {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.step-1,
+.step-3 {
+  width: 35%;
+}
+
+/*~~~~~~~~~~~~~~~~*/
+.step-2,
+.step-4 {
+  padding-left: 10%;
+  line-height: 30px;
+}
+
+.step-2 h2,
+.step-4 h2 {
+  font-size: 2.8rem;
+  color: #dddddd;
+}
+.step-2,
+.step-4 {
+  width: 35%;
+}
+
+.step-one {
+  background-image: url("../images/step01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 15%;
+  padding-bottom: 50px;
+}
+
+/*============== Section - 3 > Article-3 ===================*/
+
+.step-two {
+  background-image: url("../images/step02.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 85%;
+  padding-bottom: 50px;
+}
+/*============== Section - 3 > Article-4 ===================*/
+.step-three {
+  background-image: url("../images/step03.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 15%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+/*============== Section - 3 > Article-5 ===================*/
+.step-four {
+  background-image: url("../images/step04.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 85%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+/*========================== Footer styling =======================*/
+
+footer {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+footer div {
+  margin-top: 100px;
+
+  width: 50%;
+  margin: auto;
+}
+
+footer div h2 {
+  font-size: 3rem;
+}
+
+#email {
+  width: 50%;
+  height: 45px;
+  margin-top: 20px;
+}
+input[type="email"]::placeholder {
+  text-align: center;
+  font-size: 1.1rem;
+  color: rgb(88, 83, 83);
+}
+
+#sub {
+  display: block;
+  margin: auto;
+  width: 20%;
+  height: 40px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #ff3571;
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+#sub:hover {
+  background: linear-gradient(to right, #ff3571, #3c30ff);
+}
+
+footer div:nth-of-type(2) {
+  margin-top: 100px;
+  border: 1px solid lightgray;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 70px;
+
+  box-shadow: 5px 5px 15px 5px lightgray;
+  display: none;
+}
+
+footer div:nth-of-type(2) h3 {
+  font-size: 1.5rem;
+}
+
+footer div:nth-of-type(2) h3:nth-of-type(1) {
+  margin-bottom: 0;
+}
+footer div:nth-of-type(2) h3:nth-of-type(2) {
+  margin-top: 5px;
+}
+
+footer div:nth-of-type(2) p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+#party {
+  padding-top: 65px;
+  width: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #3c30ff;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.author {
+  padding-left: 7%;
+  padding-bottom: 10px;
+}
+/*================== Floating Dude at header ===================*/
+
+#peopl {
+  width: 50%;
+  position: absolute;
+  top: -10%;
+  right: 3%;
+
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 55px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
+}
